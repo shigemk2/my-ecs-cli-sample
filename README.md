@@ -1,0 +1,1 @@
+# my-ecs-cli-sample
