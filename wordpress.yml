@@ -1,0 +1,10 @@
+wordpress:
+  image: wordpress
+  ports:
+    - "80:80"
+  links:
+    - mysql
+mysql:
+  image: mysql
+  environment:
+    MYSQL_ROOT_PASSWORD: password
